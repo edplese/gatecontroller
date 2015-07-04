@@ -1,0 +1,33 @@
+body {
+	background-color: #ddd;
+}
+
+div:focus {
+	outline: 0;
+}
+
+div.up {
+	background-color: green;
+}
+
+div.down {
+	background-color: red;
+}
+
+div.overlay {
+	float: left;
+	position: absolute;
+	z-index:1000;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: large;
+	opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  [class*="col-"]{
+      margin-bottom: 15px;
+  }
+}
